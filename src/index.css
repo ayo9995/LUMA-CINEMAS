@@ -1,23 +1,31 @@
 a.nav-link {
   color: white;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 a.nav-link:hover {
   color: grey;
 }
-.carousel-item img{
+.carousel-item img {
   min-height: 400px;
   height: 600px;
   width: 100%;
   object-fit: cover;
 }
 
-footer .nav{
+footer .nav {
   flex-direction: column;
 }
-footer .nav{
+footer .nav {
   flex-direction: column;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.testme {
+  height: 500px;
+  background-color: chocolate;
+  width: 300px;
+}
+.testme h4{
+  display: none;
 }
