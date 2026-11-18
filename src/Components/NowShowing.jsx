@@ -100,13 +100,13 @@ const NowShowing = () => {
 
   return (
     <div>
-    <section className='now-showing bg-black text-white py-5 px-0'>
+    <section className='now-showing bg-dark text-white py-5 px-0'>
          <Container fluid>
 
 
             <div>
                 <p>Experience the Magic</p>
-                <h2>Now Showing</h2>
+                <h1>Now Showing</h1>
             </div>
 
       <Row>

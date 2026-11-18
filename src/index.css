@@ -31,7 +31,8 @@ footer .nav {
   display: none;
 }
 body{
-  background-color: black;
+  background-image: linear-gradient(to right, black, rgb(214, 129, 18));
+
 }
 .movie-card{
   background-color: black;
@@ -40,9 +41,6 @@ body{
  cursor: pointer;
  text-align: center;
  font-size: 25px;
- 
- 
-
 }
 .movie-card img{
   width: 100%;
@@ -107,4 +105,7 @@ body{
   background-color: black;
   color: white;
  
+}
+.navbar-collapse {
+  flex-grow: 0;
 }
